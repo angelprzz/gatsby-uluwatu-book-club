@@ -8,9 +8,18 @@ import SEO from "../components/seo"
 const IndexPage = (props) => {
     console.log(props)
     return(
-      <Layout>
-
-      </Layout>
+        <Layout>
+            {props.data.allBook.edges.map(edge => (
+                <div key={edge.node.id}>
+                    <h2>
+                        {edge.node.title} - <small>{edge.node.author.name}</small>
+                    </h2>
+                    <div>
+                        {edge.node.summary}
+                    </div>
+                </div>
+            ))}
+        </Layout>
     )
 }
 
