@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
+import Image from "../components/image";
 import BookItem from "../components/BookItem";
 import styled from 'styled-components'
 
@@ -27,7 +28,7 @@ const IndexPage = (props) => {
         <Layout>
             {props.data.allBook.edges.map(edge => (
                 <BookItem
-                    bookCover={edge.node.localImage.publicURL}
+                    bookCover={edge.node.localImage.childImageSharp.fixed}
                     bookTitle={edge.node.title}
                     bookSummary={edge.node.summary}
                     authorName={edge.node.author.name}
@@ -50,9 +51,13 @@ export const query = graphql`
       node {
         summary
         title
-        localImage{
-            publicURL
-        }
+          localImage{
+              childImageSharp {
+                  fixed(width: 200){
+                      ...GatsbyImageSharpFixed
+                  }
+              }
+          }
         id
         author {
           name
