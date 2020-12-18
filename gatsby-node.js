@@ -9,16 +9,7 @@ exports.createPages = ({graphql, actions}) => {
           allBook {
             edges {
               node {
-                summary
-                title
                 id
-                localImage{
-                   childImageSharp {
-                    fixed(width: 200){
-                      src
-                    }
-                  }
-                }
                 author {
                   name
                 }
@@ -35,7 +26,7 @@ exports.createPages = ({graphql, actions}) => {
             createPage({
                 path: `/book/${book.node.id}`,
                 component: bookTemplate,
-                context: book.node
+                context: {bookId: book.node.id}
             })
         });
     })

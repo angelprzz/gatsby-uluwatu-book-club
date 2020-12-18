@@ -2,7 +2,6 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image";
 import BookItem from "../components/BookItem";
 import styled from 'styled-components'
 
