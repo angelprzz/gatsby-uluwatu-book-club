@@ -1,12 +1,10 @@
-import React, {useState} from "react"
-import { useAuth } from '../components/Firebase'
+import React, { useState, useContext } from "react"
+import { FirebaseContext } from '../components/Firebase'
 
-import Layout from "../components/layout"
-
-const SecondPage = () => {
+const Login = () => {
 
     const [formState, setFormState] = useState({email: '', password: ''})
-    const {firebase} = useAuth();
+    const {firebase} = useContext(FirebaseContext);
 
     function handleSubmit(e) {
         e.preventDefault();
@@ -23,7 +21,7 @@ const SecondPage = () => {
     }
 
     return (
-        <Layout>
+        <section>
             <form onSubmit={handleSubmit}>
                 <input value={formState.email} name="email" onChange={handleInputChange} placeholder="email" type="email" />
                 <input value={formState.password} name="password" onChange={handleInputChange} placeholder="password" type="password" />
@@ -31,8 +29,8 @@ const SecondPage = () => {
                     Login
                 </button>
             </form>
-        </Layout>
+        </section>
     );
 }
 
-export default SecondPage
+export default Login

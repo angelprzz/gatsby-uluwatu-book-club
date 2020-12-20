@@ -24,7 +24,7 @@ const LinkButton = styled.div`
 const IndexPage = (props) => {
     console.log(props)
     return(
-        <Layout>
+        <section>
             {props.data.allBook.edges.map(edge => (
                 <BookItem
                     bookCover={edge.node.localImage.childImageSharp.fixed}
@@ -39,7 +39,7 @@ const IndexPage = (props) => {
                     </LinkButton>
                 </BookItem>
             ))}
-        </Layout>
+        </section>
     )
 }
 
