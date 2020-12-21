@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cbf984b-1a40-46fe-a3d6-4000417ed78d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/common/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,9 @@
       <workItem from="1608456332397" duration="7387000" />
       <workItem from="1608469428204" duration="1050000" />
       <workItem from="1608487350242" duration="1485000" />
-      <workItem from="1608500202673" duration="4702000" />
+      <workItem from="1608500202673" duration="4756000" />
+      <workItem from="1608544902343" duration="8000" />
+      <workItem from="1608546406495" duration="1562000" />
     </task>
     <servers />
   </component>
