@@ -9,7 +9,8 @@ const Register = () => {
     const [formState, setFormState] = useState({
         email: '',
         password: '',
-        confirmPassword: ''
+        confirmPassword: '',
+        username: '',
     })
 
     function handleInputChange(e) {
@@ -26,6 +27,7 @@ const Register = () => {
 
         if(formState.password === formState.confirmPassword){
             firebase.register({
+                username: formState.username,
                 email: formState.email,
                 password: formState.password,
             }).catch(e => {
@@ -38,6 +40,7 @@ const Register = () => {
 
     return(
         <Form onSubmit={handleSubmit}>
+            <Input onChange={handleInputChange} value={formState.username} placeholder="username" type="test" required name="username"/>
             <Input onChange={handleInputChange} value={formState.email} placeholder="email" type="email" required name="email"/>
             <Input onChange={handleInputChange} value={formState.password} placeholder="password" type="password" required minLength={6} name="password"/>
             <Input onChange={handleInputChange} value={formState.confirmPassword} placeholder="confirm password" type="password" required minLength={6} name="confirmPassword"/>
