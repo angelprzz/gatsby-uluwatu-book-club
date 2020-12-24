@@ -4,6 +4,7 @@
     <list default="true" id="4cbf984b-1a40-46fe-a3d6-4000417ed78d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/BookComments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/BookComments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Button.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,7 @@
       <workItem from="1608805152005" duration="623000" />
       <workItem from="1608814336692" duration="1175000" />
       <workItem from="1608817426430" duration="2264000" />
-      <workItem from="1608831870981" duration="590000" />
+      <workItem from="1608831870981" duration="1613000" />
     </task>
     <servers />
   </component>
