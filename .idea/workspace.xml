@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cbf984b-1a40-46fe-a3d6-4000417ed78d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/add-author.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/add-book.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Firebase/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Firebase/firebase.js" afterDir="false" />
     </list>
@@ -79,7 +79,8 @@
       <workItem from="1609025740402" duration="3866000" />
       <workItem from="1609030280020" duration="7000" />
       <workItem from="1609068342273" duration="3050000" />
-      <workItem from="1609074306001" duration="6218000" />
+      <workItem from="1609074306001" duration="6753000" />
+      <workItem from="1609112229504" duration="924000" />
     </task>
     <servers />
   </component>
