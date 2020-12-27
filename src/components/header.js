@@ -13,6 +13,12 @@ const LogoutLink = styled.span`
   }
 `
 
+const AdminLink = styled.span`
+  a{
+    color: white;
+  }
+`
+
 const HeaderWrapper = styled.header`
   background: rebeccapurple;
   margin-bottom: 1.45rem;
@@ -77,6 +83,22 @@ const Header = ({ siteTitle }) => {
                     <UserInfo>
                         Hello, {user.username || user.email}
                         <div>
+                            {!!user.isAdmin &&
+                                <>
+                                    <AdminLink>
+                                        <Link to="/add-author">
+                                            Add author
+                                        </Link>
+                                    </AdminLink>
+                                    <Divider />
+                                    <AdminLink>
+                                        <Link to="/add-book">
+                                            Add book
+                                        </Link>
+                                    </AdminLink>
+                                    <Divider />
+                                </>
+                            }
                             <LogoutLink onClick={handleLogoutClick}>
                                 Logout
                             </LogoutLink>
