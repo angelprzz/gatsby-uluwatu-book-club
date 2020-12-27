@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4cbf984b-1a40-46fe-a3d6-4000417ed78d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Firebase/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Firebase/firebase.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/BookComments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/BookComments.js" afterDir="false" />
     </list>
@@ -36,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../uluwatu-book-club-firebase" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Projects\uluwatu-book-club\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="AtomConfig" />
@@ -76,7 +77,9 @@
       <workItem from="1608814336692" duration="1175000" />
       <workItem from="1608817426430" duration="2264000" />
       <workItem from="1608831870981" duration="1613000" />
-      <workItem from="1609025740402" duration="3749000" />
+      <workItem from="1609025740402" duration="3866000" />
+      <workItem from="1609030280020" duration="7000" />
+      <workItem from="1609068342273" duration="2810000" />
     </task>
     <servers />
   </component>
