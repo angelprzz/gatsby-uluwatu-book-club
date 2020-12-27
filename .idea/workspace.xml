@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cbf984b-1a40-46fe-a3d6-4000417ed78d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/add-author.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Firebase/useAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Firebase/useAuth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Firebase/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Firebase/firebase.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,7 @@
       <workItem from="1609025740402" duration="3866000" />
       <workItem from="1609030280020" duration="7000" />
       <workItem from="1609068342273" duration="3050000" />
-      <workItem from="1609074306001" duration="4163000" />
+      <workItem from="1609074306001" duration="6218000" />
     </task>
     <servers />
   </component>
