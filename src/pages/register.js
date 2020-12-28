@@ -1,6 +1,7 @@
 import React, {useState, useContext} from 'react'
 import {Form, Input, Button, /*ErrorMessage*/} from '../components/common'
 import {FirebaseContext} from '../components/Firebase'
+import {navigate} from "gatsby";
 
 const Register = () => {
     const {firebase} = useContext(FirebaseContext)
@@ -30,8 +31,12 @@ const Register = () => {
                 username: formState.username,
                 email: formState.email,
                 password: formState.password,
-            }).catch(e => {
-                setErrorMessage(e.message);
+            })
+            .then(() => {
+                navigate(`/`)
+            })
+            .catch(e => {
+            setErrorMessage(e.message);
             })
         } else {
             setErrorMessage('Password and confirm password fields must match')
