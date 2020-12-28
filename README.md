@@ -51,9 +51,8 @@ service cloud.firestore {
 }
 ```
 
-7. To enable the project's **Firebase Functions**, clone or download the `uluwatu-book-club-firebase` project and follow the instructions that you will find there. 
-https://github.com/angelprzz/uluwatu-book-club-firebase
-
+7. To enable the project's **Firebase Functions**, clone or download the `gatsby-uluwatu-book-club-firebase` project and follow the instructions that you will find there (Keep in mind that you will need to be subscribed to the Firebase Blaze membership plan to access Firebase Functions). 
+https://github.com/angelprzz/gatsby-uluwatu-book-club-firebase
 8. Run the project with `gatsby start`.
 
 9. Open http://localhost:8000 in your browser.
