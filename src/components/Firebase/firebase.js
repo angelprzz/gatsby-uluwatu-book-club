@@ -31,12 +31,13 @@ class Firebase {
     return this.db.collection('authors').get()
   }
 
-  async createBook({ bookName, authorId, bookCover }) {
+  async createBook({ bookName, authorId, bookCover, summary }) {
     const createBookCallable = this.functions.httpsCallable('createBook')
     return createBookCallable({
       bookName,
       authorId,
-      bookCover
+      bookCover,
+      summary
     })
   }
 
