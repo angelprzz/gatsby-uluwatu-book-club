@@ -1,12 +1,11 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-
-import Layout from "../components/layout"
-import BookItem from "../components/BookItem";
-import styled from 'styled-components'
+import BookItem from '../components/BookItem';
+import styled from 'styled-components';
 
 const LinkButton = styled.div`
   text-align: right;
+  
   a{
     padding: 8px;
     background: rebeccapurple;
@@ -17,15 +16,14 @@ const LinkButton = styled.div`
     &:hover{
       background: indigo;
     }
-    
   }
 `
 
 const IndexPage = (props) => {
-    console.log(props)
-    return(
+    console.log(props);
+    return (
         <section>
-            {props.data.allBook.edges.map(edge => (
+            {props.data.allBook.edges.map(edge =>(
                 <BookItem
                     bookCover={edge.node.localImage.childImageSharp.fixed}
                     bookTitle={edge.node.title}
@@ -40,31 +38,31 @@ const IndexPage = (props) => {
                 </BookItem>
             ))}
         </section>
-    )
+    );
 }
 
 export const query = graphql`
-  {
-  allBook {
-    edges {
-      node {
-        summary
-        title
-          localImage{
-              childImageSharp {
-                  fixed(width: 200){
-                      ...GatsbyImageSharpFixed
-                  }
-              }
-          }
-        id
-        author {
-          name
+    {
+        allBook {
+            edges {
+                node {
+                    summary
+                    title
+                    localImage{
+                        childImageSharp{
+                            fixed(width: 200){
+                                ...GatsbyImageSharpFixed
+                            }
+                        }
+                    }
+                    id
+                    author {
+                        name
+                    }
+                }
+            }
         }
-      }
     }
-  }
-}
-`
+`;
 
 export default IndexPage
