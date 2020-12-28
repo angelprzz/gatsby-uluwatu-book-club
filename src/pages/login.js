@@ -1,6 +1,6 @@
 import React, {useState, useContext} from "react"
 import {FirebaseContext} from '../components/Firebase'
-import {Form, Input, Button, ErrorMessage} from '../components/common'
+import {Form, Input, Button, /*ErrorMessage*/} from '../components/common'
 
 const Login = () => {
 
@@ -31,11 +31,11 @@ const Login = () => {
             <Form onSubmit={handleSubmit}>
                 <Input required value={formState.email} name="email" onChange={handleInputChange} placeholder="email" type="email" />
                 <Input required value={formState.password} name="password" onChange={handleInputChange} placeholder="password" type="password" />
-                {!!errorMessage &&
-                    <ErrorMessage>
-                        {errorMessage}
-                    </ErrorMessage>
-                }
+                {/*{!!errorMessage &&*/}
+                {/*    <ErrorMessage>*/}
+                {/*        {errorMessage}*/}
+                {/*    </ErrorMessage>*/}
+                {/*}*/}
                 <Button type="submit" block>
                     Login
                 </Button>
