@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4cbf984b-1a40-46fe-a3d6-4000417ed78d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/errorMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/errorMessage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/add-book.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/add-book.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../uluwatu-book-club-firebase" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Projects\uluwatu-book-club\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="AtomConfig" />
@@ -83,6 +81,8 @@
       <workItem from="1609074306001" duration="6753000" />
       <workItem from="1609112229504" duration="1710000" />
       <workItem from="1609151539783" duration="6267000" />
+      <workItem from="1609173321869" duration="51000" />
+      <workItem from="1609174720440" duration="183000" />
     </task>
     <servers />
   </component>
