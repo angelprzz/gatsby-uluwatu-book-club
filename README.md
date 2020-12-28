@@ -9,9 +9,9 @@ Within the app you will be able to:
 * View information about some books.
 * Make comments and share ideas.
 
-If you have an admin account you will be able to post new books and authors to the platform.
+If you have an admin account you will be able to post new books to the platform.
 
-## How to instal
+## How to install
 These are the steps you need to follow if you want to run the code with your own Firebase project (You will need access to **Firebase Authentication**, **Cloud Firestore**, **Firebase Storage** and **Cloud Functions**).
 1. Download or clone the project.
 
