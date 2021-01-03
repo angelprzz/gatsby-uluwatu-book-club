@@ -38,7 +38,6 @@ export const BookComments = ({firebase, bookId}) => {
         const unsubscribe = firebase.subscribeToBookComments({
             bookId,
             onSnapshot: (snapshot) => {
-                console.log(snapshot);
                 const snapshotComments = [];
                 snapshot.forEach(doc => {
                     snapshotComments.push({
@@ -59,7 +58,6 @@ export const BookComments = ({firebase, bookId}) => {
 
     function handlePostCommentSubmit(e) {
         e.preventDefault()
-        console.log(commentText)
         firebase.postComment({
             text: commentText,
             bookId

@@ -17,7 +17,6 @@ const Login = () => {
                 navigate(`/`)
             })
             .catch(e => {
-                console.log(e)
                 setErrorMessage(e.message)
             })
     }

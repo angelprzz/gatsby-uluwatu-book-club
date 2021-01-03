@@ -30,7 +30,6 @@ const AddBook = () => {
     useEffect(() => {
         if(firebase) {
             firebase.getAuthors().then(snapshot => {
-                console.log(snapshot)
                 const availableAuthors = [];
                 snapshot.forEach(doc => {
                     availableAuthors.push({
