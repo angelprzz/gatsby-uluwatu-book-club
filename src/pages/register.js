@@ -1,5 +1,5 @@
 import React, {useState, useContext} from 'react'
-import {Form, Input, Button, /*ErrorMessage*/} from '../components/common'
+import {Form, Input, Button, ErrorMessage} from '../components/common'
 import {FirebaseContext} from '../components/Firebase'
 import {navigate} from "gatsby";
 
@@ -49,11 +49,11 @@ const Register = () => {
             <Input onChange={handleInputChange} value={formState.email} placeholder="email" type="email" required name="email"/>
             <Input onChange={handleInputChange} value={formState.password} placeholder="password" type="password" required minLength={6} name="password"/>
             <Input onChange={handleInputChange} value={formState.confirmPassword} placeholder="confirm password" type="password" required minLength={6} name="confirmPassword"/>
-            {/*{!!errorMessage &&*/}
-            {/*    <ErrorMessage>*/}
-            {/*        {errorMessage}*/}
-            {/*    </ErrorMessage>*/}
-            {/*}*/}
+            {!!errorMessage &&
+            <ErrorMessage>
+                {errorMessage}
+            </ErrorMessage>
+            }
             <Button type="submit" block>
                 Register
             </Button>
